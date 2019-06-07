@@ -11,7 +11,7 @@
 class Coordinate
 {
 public:
-    int x_axis;
-    int y_axis;
+	int x_axis;
+	int y_axis;
 };
 #endif

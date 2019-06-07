@@ -12,8 +12,8 @@
 class Haar_Feature
 {
 public:
-    int s;
-    int t;
-    int kind;
+	int s;
+	int t;
+	int kind;
 };
 #endif

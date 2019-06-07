@@ -26,13 +26,13 @@ using namespace cv;
 class AdaBoost_Trainning
 {
 public:
-    int T;//训练次数；
-    vector<Weak_Classifier> w_c;//弱分类器的集合；
-    Haar_Feature_Trainning h_f_t;//创建训练对象；
+	int T;//训练次数；
+	vector<Weak_Classifier> w_c;//弱分类器的集合；
+	Haar_Feature_Trainning h_f_t;//创建训练对象；
     
-    void Init(int t);
-    void Weight_Normalization();//权重归一化；
-    void Weight_Renew(Weak_Classifier w,double b);//权重更新；
-    void AdaBoostTrainning();//训练函数，训练强分类器；
+	void Init(int t);
+	void Weight_Normalization();//权重归一化；
+	void Weight_Renew(Weak_Classifier w, double b);//权重更新；
+	void AdaBoostTrainning();//训练函数，训练强分类器；
 };
 #endif
